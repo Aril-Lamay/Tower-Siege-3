@@ -180,10 +180,10 @@ async function getBackground(){
   var hour = datetime.slice(11,13);
   
   if(hour>=06 && hour<=19){
-      bg = "DeepSkyBlue";
+      bg = "bg1.png";
   }
   else{
-      bg = "Black";
+      bg = "bg2.png";
   }
   backGroundImage = loadImage(bg);
 
